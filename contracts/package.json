@@ -1,0 +1,33 @@
+{
+  "name": "shapedropchain-contracts",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rimraf artifacts cache typechain types",
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:localhost": "hardhat deploy --network localhost",
+    "typechain": "hardhat typechain"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@types/node": "^20.10.5",
+    "@fhevm/hardhat-plugin": "^0.3.0-1",
+    "hardhat": "^2.22.10",
+    "hardhat-deploy": "^0.12.2",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.9.1",
+    "@zama-fhe/relayer-sdk": "0.3.0-5",
+    "ethers": "^6.11.1",
+    "dotenv": "^16.4.5"
+  }
+}
+
+
