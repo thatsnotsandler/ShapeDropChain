@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Hardhat files
+cache/
+artifacts/
+deployments/
+typechain-types/
+
+# Sensitive data
+*.key
+*.pem
+*.secret
+secrets/
+.secrets/
+
+# Private keys and mnemonics
+private-keys.txt
+mnemonic.txt
+*.mnemonic
+
+# Build outputs
+*.log
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

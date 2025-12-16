@@ -1,0 +1,36 @@
+# Vercel
+.vercel
+.env*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sensitive data
+*.key
+*.pem
+*.secret
+secrets/
+.secrets/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
